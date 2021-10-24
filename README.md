@@ -13,6 +13,6 @@ This is a qualifying offer calculator which shows the average of the 125 highest
 
 - To run this project first Clone it to your repository then to start this project type `yarn start`
 
-# Website URL:
+# Demo:
 
-[Qualifying Offer Calculator](https://baseball-qualifying-offer.netlify.app)
+[Qualifying Offer Calculator](public/baseball.gif)

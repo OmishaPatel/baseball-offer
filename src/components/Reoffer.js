@@ -12,7 +12,7 @@ export const Reoffer = () => {
   const fetchData = async () => {
     setLoading(true);
     try {
-      const response = await fetch(url, { mode: "cors" });
+      const response = await fetch(url);
       const htmlData = await response.text();
       const data = JSON.stringify(htmlData);
       // parsing html data
