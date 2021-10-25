@@ -15,4 +15,4 @@ This is a qualifying offer calculator which shows the average of the 125 highest
 
 # Demo:
 
-[Qualifying Offer Calculator](public/baseball.gif)
+[Qualifying Offer Calculator](https://baseball-qualifying-offer.netlify.app)

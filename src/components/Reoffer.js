@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { parse } from "node-html-parser";
 import { useState, useEffect } from "react";
 import { Loading } from "./Loading";
-const url = "https://questionnaire-148920.appspot.com/swe/data.html";
+const url = "https://baseball-offer.herokuapp.com/";
 export const Reoffer = () => {
   const [salaries, setSalaries] = useState();
   const [loading, setLoading] = useState(false);
@@ -12,7 +12,7 @@ export const Reoffer = () => {
   const fetchData = async () => {
     setLoading(true);
     try {
-      const response = await fetch(url);
+      const response = await fetch(url, { mode: "cors" });
       const htmlData = await response.text();
       const data = JSON.stringify(htmlData);
       // parsing html data
